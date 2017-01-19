@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2.6
 """A wrapper script with srvadmin and other tools for hardware monitor.
 
 Supported metrics:

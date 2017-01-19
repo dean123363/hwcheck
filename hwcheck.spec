@@ -10,7 +10,7 @@ Source0: hwcheck-%{version}.tar.gz
 BuildRoot: %(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
 
 BuildRequires: python
-Requires: srvadmin-omacore, srvadmin-omcommon, srvadmin-storage-cli, smbios-utils-bin, lm_sensors, dmidecode, cronie
+Requires: srvadmin-omacore, srvadmin-omcommon, srvadmin-storage-cli, smbios-utils-bin, lm_sensors, dmidecode
 
 %description
 Provides scripts for server hardware infomation gathering and monitoring,just
